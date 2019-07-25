@@ -10,18 +10,16 @@
 </head>
 
 <body onload="start()">
-    <div class="container">
+    <form>
         <div class="input">
-            <label>Name:</label>
-            <input id="name" type="text">
+            <input id="name" type="text" placeholder="Name" autocomplete="off">
         </div>
         <div class="input">
-            <label>Address:</label>
-            <input id="address" type="text">
+            <input id="address" type="text" placeholder="Address" autocomplete="off">
         </div>
-        <div class="btn">
-            <button id="check" type="submit" onclick="check(event)">submit</button>
-        </div>
+    </form>
+    <div class="btn">
+        <button id="check" type="submit" onclick="check(event)">submit</button>
     </div>
     <script type="text/javascript" src="index1.js"></script>
 </body>
